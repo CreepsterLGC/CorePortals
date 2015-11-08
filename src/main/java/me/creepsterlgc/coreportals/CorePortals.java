@@ -1,9 +1,9 @@
-package me.creepsterlgc.coreportals;
+package main.java.me.creepsterlgc.coreportals;
 
 import java.util.logging.Logger;
 
-import me.creepsterlgc.core.files.FileCommands;
-import me.creepsterlgc.coreportals.commands.CommandPortal;
+import main.java.me.creepsterlgc.core.files.FileCommands;
+import main.java.me.creepsterlgc.coreportals.commands.CommandPortal;
 
 import org.spongepowered.api.Game;
 import org.spongepowered.api.event.Listener;
