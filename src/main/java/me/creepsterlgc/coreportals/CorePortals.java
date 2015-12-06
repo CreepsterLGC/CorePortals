@@ -30,7 +30,7 @@ public class CorePortals {
     @Listener
     public void onEnable(GameStartingServerEvent event) {
     	
-    	if(FileCommands.PORTAL()) game.getCommandDispatcher().register(this, new CommandPortal(), "portal");
+    	if(FileCommands.PORTAL()) game.getCommandManager().register(this, new CommandPortal(), "portal");
     	
     }
     
